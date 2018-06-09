@@ -1,7 +1,7 @@
-//% weight=70 icon="\u30A1" color=#EC7505 block="カタカナ"
+//% weight=70 icon="\u30A1" color=#EC7505 block="test"
 namespace test {
 
-    //% blockId=show_strings block="文字列を表示 %v"
+    //% blockId=show_strings block="string %v"
     export function putStr(text: string): void {
       basic.showLeds(`
           . . . . .
